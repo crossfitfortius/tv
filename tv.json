@@ -1,0 +1,566 @@
+{
+ "version": "2026-11-16-v1",
+ "updated": "2026-11-16",
+ "site": "crossfitfortius.com",
+ "seconds": 14,
+ "schedule": {
+  "note": "Every class is 60 minutes and coached. Check in before warm-up.",
+  "week": {
+   "0": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "8:00 AM",
+      "9:15 AM"
+     ]
+    },
+    {
+     "label": "Gymnastics",
+     "times": [
+      "10:30 AM"
+     ]
+    }
+   ],
+   "1": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "5:00 AM",
+      "6:15 AM",
+      "7:30 AM",
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "4:15 PM",
+      "5:30 PM"
+     ]
+    },
+    {
+     "label": "Open gym",
+     "ranges": [
+      "10:15 to 11:45 AM",
+      "1:15 to 2:45 PM"
+     ]
+    },
+    {
+     "label": "Competitor",
+     "times": [
+      "4:15 PM"
+     ]
+    }
+   ],
+   "2": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "5:00 AM",
+      "6:15 AM",
+      "7:30 AM",
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "4:15 PM",
+      "5:30 PM"
+     ]
+    },
+    {
+     "label": "Open gym",
+     "ranges": [
+      "10:15 to 11:45 AM",
+      "1:15 to 2:45 PM"
+     ]
+    },
+    {
+     "label": "Competitor",
+     "times": [
+      "4:15 PM"
+     ]
+    }
+   ],
+   "3": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "5:00 AM",
+      "6:15 AM",
+      "7:30 AM",
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "4:15 PM",
+      "5:30 PM"
+     ]
+    },
+    {
+     "label": "Open gym",
+     "ranges": [
+      "10:15 to 11:45 AM",
+      "1:15 to 2:45 PM"
+     ]
+    },
+    {
+     "label": "Competitor",
+     "times": [
+      "4:15 PM"
+     ]
+    }
+   ],
+   "4": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "5:00 AM",
+      "6:15 AM",
+      "7:30 AM",
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "4:15 PM",
+      "5:30 PM"
+     ]
+    },
+    {
+     "label": "Open gym",
+     "ranges": [
+      "10:15 to 11:45 AM",
+      "1:15 to 2:45 PM"
+     ]
+    },
+    {
+     "label": "Competitor",
+     "times": [
+      "4:15 PM"
+     ]
+    },
+    {
+     "label": "Gymnastics",
+     "times": [
+      "6:45 PM"
+     ]
+    }
+   ],
+   "5": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "5:00 AM",
+      "6:15 AM",
+      "7:30 AM",
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "4:15 PM",
+      "5:30 PM"
+     ]
+    },
+    {
+     "label": "Open gym",
+     "ranges": [
+      "10:15 to 11:45 AM",
+      "1:15 to 2:45 PM"
+     ]
+    },
+    {
+     "label": "Competitor",
+     "times": [
+      "4:15 PM"
+     ]
+    }
+   ],
+   "6": [
+    {
+     "label": "CrossFit",
+     "times": [
+      "6:45 AM",
+      "8:00 AM",
+      "9:15 AM",
+      "10:30 AM"
+     ]
+    }
+   ]
+  },
+  "overrides": {
+   "2026-11-25": {
+    "name": "Day before Thanksgiving",
+    "groups": [
+     {
+      "label": "CrossFit",
+      "times": [
+       "5:00 AM",
+       "6:15 AM",
+       "7:30 AM",
+       "9:00 AM",
+       "12:00 PM"
+      ]
+     }
+    ],
+    "note": "No 3:00, 4:15, or 5:30 PM classes. No open gym. No Competitor class."
+   },
+   "2026-11-26": {
+    "name": "Thanksgiving",
+    "closed": true,
+    "note": "No classes and no open gym. Members, the Clydesdale Marathon starts at 7:30 AM sharp."
+   },
+   "2026-11-27": {
+    "name": "Day after Thanksgiving",
+    "groups": [
+     {
+      "label": "CrossFit",
+      "times": [
+       "7:00 AM",
+       "9:00 AM",
+       "11:00 AM"
+      ]
+     },
+     {
+      "label": "Competitor",
+      "times": [
+       "4:15 PM"
+      ]
+     }
+    ],
+    "note": "Three classes only. No open gym."
+   }
+  }
+ },
+ "slides": [
+  {
+   "id": "schedule",
+   "type": "schedule",
+   "seconds": 20
+  },
+  {
+   "id": "thanks26",
+   "type": "hours",
+   "seconds": 18,
+   "end": "2026-11-27",
+   "tag": "Holiday hours",
+   "title": "Thanksgiving week hours",
+   "days": [
+    {
+     "date": "2026-11-25",
+     "label": "Wednesday, Nov 25",
+     "name": "Day before Thanksgiving",
+     "lines": [
+      [
+       "CrossFit",
+       "5:00, 6:15, 7:30, and 9:00 AM, and 12:00 PM"
+      ],
+      [
+       "Afternoon",
+       "No 3:00, 4:15, or 5:30 PM classes"
+      ],
+      [
+       "Open gym and Competitor",
+       "None"
+      ]
+     ]
+    },
+    {
+     "date": "2026-11-26",
+     "label": "Thursday, Nov 26",
+     "name": "Thanksgiving",
+     "lines": [
+      [
+       "Classes",
+       "No classes and no open gym"
+      ],
+      [
+       "Members",
+       "Clydesdale Marathon, 7:30 AM sharp"
+      ]
+     ]
+    },
+    {
+     "date": "2026-11-27",
+     "label": "Friday, Nov 27",
+     "name": "Day after Thanksgiving",
+     "lines": [
+      [
+       "CrossFit",
+       "7:00, 9:00, and 11:00 AM only"
+      ],
+      [
+       "Open gym",
+       "None"
+      ],
+      [
+       "Competitor",
+       "4:15 PM, as usual"
+      ]
+     ]
+    }
+   ],
+   "url": "crossfitfortius.com/events"
+  },
+  {
+   "id": "bf26",
+   "type": "feature",
+   "seconds": 16,
+   "end": "2026-12-15",
+   "tag": "Black Friday",
+   "eyebrow": "Black Friday · Last 10 discounts",
+   "title": [
+    "Buy a year.",
+    "Save $791."
+   ],
+   "tiles": [
+    {
+     "k": "12 months, paid once",
+     "v": "$1,597",
+     "s": "Save $791",
+     "hot": true
+    },
+    {
+     "k": "6 months, paid once",
+     "v": "$897",
+     "s": "Save $297"
+    }
+   ],
+   "body": [
+    "Every bundle includes one bonus perk, your choice."
+   ],
+   "fine": "Savings compare to paying $199 a month. Current members can buy. Your new term starts the day after your current billing cycle ends.",
+   "url": "crossfitfortius.com/blackfriday",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB+UlEQVR42u1bQY7EIAyLlgfwpH59nsQDKmWhJCHM7GH3sjKSOaCWcsIKseNU9PfjFm5G3PwSG6qt2PJcq7fI1bfYqPeX/GFw8/9s7gjWHcuB25j6a9H5NFElgrAIBmQdy/404BrR+LxeDi0RPABB1YylxWUlggch+ESeRDKs8+4kgsfkwTHk6jD2qX8Z00SQeRAbwS0af5rIRbERfBvPLfpKwZmkB48OE8G4MZ8ny4jPWkm6cbBSHh1oDEYKVJMPj6Toc7HXq/EWhc6DRRNh0RZrYoE4sSSCyGrCNMSkoUWXMpzR6Gs8Olw18QpWOoWELoFv9ynVBLiaqCbhLehSLS0lSB4dLhddnCYEfkSe8BbFZzKG1s5ujNP4RARxYzBMpFZ0EZvP0hoRhK5seylbXdtv7hLVBDwXrXfmNCkjtuTW8+hguajRUDEhYZFXo0xa6U3Ac9F6e3HUy2jJKdRGJoNeVVt10cBSoi4abj2PDthdasFK51WqUWRL3U88OmR3yV3BAHTC+Iq2GcYgMhd12bc5vJpaRYngER590oP6gSrVxAF9Mgu8pSu25kMeHXzPtpvyaSzvibfoAR2/YTFtwemBSAThu+5lyQejoe7Rs0/mmP8m3hoNszxkHsTPg2ExqebfKKgmzuKiXhJd/ff0B4/q2ebPs4dt/gZr1HO3Jib57wAAAABJRU5ErkJggg=="
+  },
+  {
+   "id": "events",
+   "type": "events",
+   "seconds": 16,
+   "tag": "Events",
+   "title": "Coming up",
+   "items": [
+    {
+     "end": "2026-11-26",
+     "top": "Thu",
+     "main": "Nov 26",
+     "title": "Clydesdale Marathon",
+     "detail": "7:30 AM sharp. Doors at 7:00. Members only, free."
+    },
+    {
+     "end": "2026-12-05",
+     "top": "Sat",
+     "main": "Dec 5",
+     "title": "Fortius Holiday Party",
+     "detail": "Members and families. Time and place coming soon."
+    },
+    {
+     "end": "2027-03-08",
+     "top": "2027",
+     "main": "Feb 18",
+     "title": "2027 CrossFit Open",
+     "detail": "Through Mar 8. Friday Night Lights on Feb 19, Feb 26, and Mar 5."
+    }
+   ],
+   "url": "crossfitfortius.com/events",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABkklEQVR42u2aS47EIAxEreEAHImr50gcIBIT8AfSs2lpJNemWNDdaVY82VW2I+OrdQvPJZ27xJY96sW3519b9f6R7xbP/e/cw6OeZIxlX3841Ys8MnncKwI8UqoCOJ6RB47Hs5XxfM6NPLA8QjVWDiMPtH5MHtImlOMZ9SObxytSPjb6q3Qee11bNTSHHb6Y9wfwu6oaw5LWMr1zk0YeufnKZWKimFVgUwom6uSRy6MYhUhf66fbLeYrgN9t40/SUqFv5oF5f2l63ssZEEphROai30X4q6uGfvRioh5qT7+bzUMFfHVJ9Ft1+9u69hh5f3n5Sl6tkrfd8nKE95dan1tUqLdVFTcRYXwA6kHrWkX6Eg+N2Hh/+f2r019Fv0Tbi+QBiI8xdlSYv/ImFnkk96/cVVll2CNwmK+A/V03vRvUNL2MD5B+vCuRPR8kD8x8cOmHlHHMP6xwJw/Q/Nx5hJ4L/RWUx556RPuEPEA8Dv2wN+N0cR6F0489GoxJIeMD9H7J8b7ox8yQPAD1B98zx5/7BbIMYOm6C6s1AAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "clyde26",
+   "type": "feature",
+   "seconds": 16,
+   "end": "2026-11-26T10:00",
+   "tag": "Members only",
+   "eyebrow": "Thanksgiving morning · Thursday, November 26",
+   "title": [
+    "Clydesdale",
+    "Marathon"
+   ],
+   "body": [
+    "7:30 AM sharp. Doors at 7:00.",
+    "A full marathon on the bike, 42.195 km, with 3 back squats, 3 bench presses, and 3 deadlifts every 5 km. 2-hour cap.",
+    "Scaled, Rx, and Advanced. Solo or with a partner."
+   ],
+   "fine": "Members only. Free. Bikes are first come, first served. No other workouts that day. Earn your pie.",
+   "url": "crossfitfortius.com/events",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABkklEQVR42u2aS47EIAxEreEAHImr50gcIBIT8AfSs2lpJNemWNDdaVY82VW2I+OrdQvPJZ27xJY96sW3519b9f6R7xbP/e/cw6OeZIxlX3841Ys8MnncKwI8UqoCOJ6RB47Hs5XxfM6NPLA8QjVWDiMPtH5MHtImlOMZ9SObxytSPjb6q3Qee11bNTSHHb6Y9wfwu6oaw5LWMr1zk0YeufnKZWKimFVgUwom6uSRy6MYhUhf66fbLeYrgN9t40/SUqFv5oF5f2l63ssZEEphROai30X4q6uGfvRioh5qT7+bzUMFfHVJ9Ft1+9u69hh5f3n5Sl6tkrfd8nKE95dan1tUqLdVFTcRYXwA6kHrWkX6Eg+N2Hh/+f2r019Fv0Tbi+QBiI8xdlSYv/ImFnkk96/cVVll2CNwmK+A/V03vRvUNL2MD5B+vCuRPR8kD8x8cOmHlHHMP6xwJw/Q/Nx5hJ4L/RWUx556RPuEPEA8Dv2wN+N0cR6F0489GoxJIeMD9H7J8b7ox8yQPAD1B98zx5/7BbIMYOm6C6s1AAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "gift",
+   "type": "feature",
+   "end": "2026-11-26",
+   "tag": "Gift cards",
+   "eyebrow": "Fortius gift cards",
+   "title": [
+    "Give the gift",
+    "of strength."
+   ],
+   "body": [
+    "Any amount from $25 to $500. It never expires.",
+    "They pick the classes, a pass, or a membership. We do the coaching."
+   ],
+   "url": "crossfitfortius.com/gift-cards",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABpElEQVR42u1aSQ7DMAhE9QPypHzdT8oDItGYzbSnSpXgMj5EceITIxhmMPFP6yacKzo3yRbzZQ+ig5nO56+t437Rbwvn/jv34HEEgtfQN8Hj+eGoTuBRiYcAYLGXrPAksewBHk14pPwQeIBHMx7x9cjsAjx6+GO9CTJG5eCPFjw+MuXrgf6qHI+0Hv5wPh/sRUuzB/GrrFd0XpIpC4VdwxQe4FGcH6urMlAG761SuW2BR2l/pVwRgtx7LkkSkh+IXyV/mCBf+9NJZDdZwKO2XhGlflfwIBrsdpYwO/Co5vNFEzTCydqmIvi8QQ9OVyJmmhiLbycL8avNDyERXSOYxOsV+KO6302GrksPlSOneb6IXy0evAWH98Da6kJ/tPiJX9ZuyHUtZMCjUn/sUZQrkeivXJ0Aj+L+KuZRk/JoMCZTiF+9vzuTPAzNbtMqxK9+/mEi/VbqcGML/VXbfJDMKvHU4F2+EL+e+blPBTeTwC/pwkOrFJlfkkgd9artvo+5JJzbLejBrvuJ3m6ZvRiDQ+RHz/0SdtfqyvwBPJrul+Ceefu5N1zUdNglkE6lAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "giftbonus26",
+   "type": "feature",
+   "seconds": 16,
+   "start": "2026-11-27",
+   "end": "2026-12-31",
+   "tag": "Gift cards",
+   "eyebrow": "Holiday bonus · Nov 27 to Dec 31",
+   "title": [
+    "Give a gift card.",
+    "Get a credit."
+   ],
+   "tiles": [
+    {
+     "k": "$75 gift card",
+     "v": "$10",
+     "s": "credit for you"
+    },
+    {
+     "k": "$150 gift card",
+     "v": "$20",
+     "s": "credit for you"
+    },
+    {
+     "k": "$300 gift card",
+     "v": "$50",
+     "s": "credit for you"
+    }
+   ],
+   "fine": "The gift card must be a real gift for someone else. We add the credit to your Fortius account within 2 business days. It has no cash value.",
+   "url": "crossfitfortius.com/gift-cards",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABpElEQVR42u1aSQ7DMAhE9QPypHzdT8oDItGYzbSnSpXgMj5EceITIxhmMPFP6yacKzo3yRbzZQ+ig5nO56+t437Rbwvn/jv34HEEgtfQN8Hj+eGoTuBRiYcAYLGXrPAksewBHk14pPwQeIBHMx7x9cjsAjx6+GO9CTJG5eCPFjw+MuXrgf6qHI+0Hv5wPh/sRUuzB/GrrFd0XpIpC4VdwxQe4FGcH6urMlAG761SuW2BR2l/pVwRgtx7LkkSkh+IXyV/mCBf+9NJZDdZwKO2XhGlflfwIBrsdpYwO/Co5vNFEzTCydqmIvi8QQ9OVyJmmhiLbycL8avNDyERXSOYxOsV+KO6302GrksPlSOneb6IXy0evAWH98Da6kJ/tPiJX9ZuyHUtZMCjUn/sUZQrkeivXJ0Aj+L+KuZRk/JoMCZTiF+9vzuTPAzNbtMqxK9+/mEi/VbqcGML/VXbfJDMKvHU4F2+EL+e+blPBTeTwC/pwkOrFJlfkkgd9artvo+5JJzbLejBrvuJ3m6ZvRiDQ+RHz/0SdtfqyvwBPJrul+Ceefu5N1zUdNglkE6lAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "referral",
+   "type": "feature",
+   "tag": "Referral program",
+   "eyebrow": "Referral program",
+   "title": [
+    "Bring a friend."
+   ],
+   "body": [
+    "They get 50% off their first month.",
+    "You get 50% off your next month."
+   ],
+   "fine": "Your friend must stay 3 months. Report the referral on the form within 30 days of their start. It does not stack with Black Friday or couples discounts. Upfront memberships earn a flat $65.",
+   "url": "crossfitfortius.com/membership-referral-program",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB/0lEQVR42u1bSW7EMAwT6gfkSfm6n+QHBFBja7MHPbSXQgKYQyaT8ckcLSRl4t9fD2FxxsWd9Fov3s/G3K9HX95sT3Q9X/SHC4v/Z/GL4OXAjxc8HoIWraftH9GBYFoEH4VMo7EJoB558gMQLIGgJdB76JPegGChGJzgyW1G46qDQLBKHZSnQR6DrIGIOpgbwSMaf7qhF82NYFwz6FY+fXPn/DqzKF0b9cDWJa6DC0spgV4M+Tl+BYKJEfwk+hKN1sksVFEHU2dRyZ3e2Ahk0d0Iw0AM5kZQYTxYoCZVpRlAMHMW1XK30uaiFCbMCK+QngYIJo1BEUKN+3XXsyeW0s6YVoqty8voNRA9n5KL2oPCpcDW5eWDXvO0p3E1VCUasInUmkzbmxi1mJr3p0brwSZSq2ouwpg42nhbAz5YQBcN+hBGvRVDU9qAYN4sGjdlE+wuBTND2c7OJkw8k3JHpy5K4IMVsmgIoe7m0jZlwWrZY+uSe/Sf0XhZd6P5FAimRtCtQU+gbJIoNJkiUxbGHHREZp8mBR8s4tF7L7rXwdDcgGD2ORnm3aUI49BMYCBYY1Yt7MIQ1KBsF5kXFXte50WPUxXgg0UQPOx5b2x8CbauxrkJdXjtKJPp3qiDBc4uiSlvxfAehmXHtGGRmW3aXUHjiOZXoJPJzwdxHrbi4m8sYUVYrqi4tgAAAABJRU5ErkJggg=="
+  },
+  {
+   "id": "rewards-teaser",
+   "type": "feature",
+   "end": "2026-11-30",
+   "tag": "Fortius Rewards",
+   "eyebrow": "Fortius Rewards · Launching December 1",
+   "title": [
+    "No check-in,",
+    "no points."
+   ],
+   "body": [
+    "Every check-in since Wednesday, November 11 earns points.",
+    "Check in every time, on the SugarWOD app or the iPad at the front desk.",
+    "Forgot? Text (619) 494-3088 within 7 days."
+   ],
+   "fine": "No sign-up. Every member is in. Your points show up December 1.",
+   "url": "crossfitfortius.com/fortiusrewards",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB7UlEQVR42u1bS47FIAxDwwE4ElfvkTgAEtM2HxK9WcxsRkZyF1Uf7QrLwXbyyvr9NQs/Rvz4KnrFn23qra9p79v8Kn+4+PH/fHxD1iKW4el58cIoYF9EEBZB5ZvQrzs/XwR7AJQIoiMouL1EHNV42YjgWQgqG+0IJIJHnYMP82SxD70FZUQEYRFMbPzpRi2KjWA2F7o2XsjeohrecuswEUwV874eESNrNULbiSC2kpGTzrF86HdjKY6+D1ZRaA5WM+72JKZQAa2KJRHEPQeTDBUtumY4B62eEkFULVoterEQJplCrad0E9BaVKm2Lbwwrziq8pZbB+wmhtVOV6CqSsMaEQTnoNRTf1JTaKafCKIjGLtLyRRaWEMEwVO1uixBq9JYSt0luglwR6/M26bQYdR8jZkMOgelrzu0dnozQuhnlCSCuJlMDLXXDC5/E5HnIHYVvSx6sdEm7xQ6oOQgdKoWZGiLoxalxNE1bh1ud0mkS6nRV+xZNXvi1mFPWURKpjXLuIkgeo9efMWIDQqVoRp+c+vA52RcfOa+7qYktw59ZrvFfM36uiZsqEUPmBd1R5+TbW8XcuvQp+49DQ0xqXUKqWROQXAFC7/c1vMcPOS/S9vCf7gJVtETtOiyaK3skI39waNmtvl/2PM+/gZlnGT8SaxwTwAAAABJRU5ErkJggg=="
+  },
+  {
+   "id": "gymnastics",
+   "type": "feature",
+   "tag": "Programs",
+   "eyebrow": "Gymnastics skills · Coach Daimino",
+   "title": [
+    "Gymnastics",
+    "skills"
+   ],
+   "body": [
+    "Thursdays at 6:45 PM. Sundays at 10:30 AM.",
+    "60 minutes, skills only. Handstand push-ups, chest-to-bar pull-ups, bar and ring muscle-ups, and handstand walking, taught step by step."
+   ],
+   "fine": "$25 a class, paid directly to Coach Daimino.",
+   "url": "crossfitfortius.com/programs",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABj0lEQVR42u2aQQ7EIAhFyXgAj+TVeyQP0IRpBYR2NckksPkumta68gU+fCX+aZyEdUnrDtKxPon6PdeZ15uOfn7ot4F1/62TvQ8ED2psP/YceGTy8Ki43oYCsDldgv2r4cE8r68xryAZDB7FPJZqrPhQ/QCPQv1QMgYlaAp4JPJ4RMrrgfoqnYeP4wHFgkQiBfuXqx+LzNRwud4aazuijQn2L5OHiIijOPx/h36U9YOTdhNy7iBBvirQc+8CR6yqvBPB/mXyCKXumGu6sQbOhH5k87jTkqhGY5cT7xGhH7n1rpm8I1gl5iwOxEc2jwXgfrxMxeVkSQ4Dj+T+Q73DxuqXkAYJ4qNIP/zow/1EtUrgJxbER8hNikL6cy1/wSObh2t39NuhHyX9uaDwzLWdLIMCHiX+bhMpN+eEeUPB/uWff7AlLamv/HwQ+lF0Pmil7pYOzWbgUXa/hPr5MN2hH3U8KJpY0V4Ej6r7JeqS+HVFcePBo+o86qUkOP8ovF+yqyq2+3A4Py/sP3DPvH7dF1AfUT5FQFaJAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "competitor",
+   "type": "feature",
+   "tag": "Programs",
+   "eyebrow": "Weekdays at 4:15 PM · Coach Daimino",
+   "title": [
+    "Competitor",
+    "Program"
+   ],
+   "body": [
+    "The step past the daily class. Accessory work, extra conditioning, and sessions of 90 minutes to 2 hours.",
+    "Open to members who can do most class workouts at Level 3 or higher."
+   ],
+   "fine": "$238 a month: a $149 Fortius membership plus the $89 Competitor add-on, paid directly to Coach Daimino. Ask a coach or text (619) 494-3088.",
+   "url": "crossfitfortius.com/programs",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABj0lEQVR42u2aQQ7EIAhFyXgAj+TVeyQP0IRpBYR2NckksPkumta68gU+fCX+aZyEdUnrDtKxPon6PdeZ15uOfn7ot4F1/62TvQ8ED2psP/YceGTy8Ki43oYCsDldgv2r4cE8r68xryAZDB7FPJZqrPhQ/QCPQv1QMgYlaAp4JPJ4RMrrgfoqnYeP4wHFgkQiBfuXqx+LzNRwud4aazuijQn2L5OHiIijOPx/h36U9YOTdhNy7iBBvirQc+8CR6yqvBPB/mXyCKXumGu6sQbOhH5k87jTkqhGY5cT7xGhH7n1rpm8I1gl5iwOxEc2jwXgfrxMxeVkSQ4Dj+T+Q73DxuqXkAYJ4qNIP/zow/1EtUrgJxbER8hNikL6cy1/wSObh2t39NuhHyX9uaDwzLWdLIMCHiX+bhMpN+eEeUPB/uWff7AlLamv/HwQ+lF0Pmil7pYOzWbgUXa/hPr5MN2hH3U8KJpY0V4Ej6r7JeqS+HVFcePBo+o86qUkOP8ovF+yqyq2+3A4Py/sP3DPvH7dF1AfUT5FQFaJAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "nutrition",
+   "type": "feature",
+   "tag": "Programs",
+   "eyebrow": "Nutrition coaching",
+   "title": [
+    "You cannot out-train",
+    "a bad diet."
+   ],
+   "body": [
+    "Clear, practical steps that fit a busy life. No diet trends.",
+    "Level 1: 8 weeks, for CrossFitters new to nutrition. Level 2: 12 weeks, with macro and micronutrient tracking. Level 3: fully custom."
+   ],
+   "fine": "Ask a coach or text (619) 494-3088.",
+   "url": "crossfitfortius.com/programs/nutrition",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB80lEQVR42u1bS47FIAyLpgfgSFy9R+oBKjEt+fI0i5nNyEhmUUHLCr8Q28mT8ftxCzcjbj7FxpyNsz2vz3bbyz58Ju3+kj8Mbv6fzQaZYpkzOcZ8vLjZL+IkgrAI3mJAXQ9k/RJbzg/dw5QIboCgRt4TiIrbiAcR3CkGRWEsdycR3CYPDr9A9cO7LMyICMIiuETjTw9yUWwEc0zy2Z+JC4l31or04NHh5sHJQA2yvEWPuF5VV/DoYBFMIaG4mRQ0VhoKg0cHmwfz8aB1FIE/l5OfEkHgPGhsU9HqMZsxKC0/EEFQBK8UhZYHU2FkDJLJACN4BA0NJ0bfidgHxiD6LequWuTBy3Crjg0RRI5BUw7DwXOLRn2abu4Mjw6Xi2ZNqVQZAzzfwqMDRTAZqHzSGa8uHfRFsbloHYmge27q05DJQOtBlQ9R4dW7s5lXGtHIo8O9RWVpjElALTderA/C1wdTuLsds7BS5sEd9GCIhmCg7na7KOTRYXsyGX6Tmmr2iwYaIohfH0wbLU225KfUg1vU6C0tekViIaREcJM+mWLHpGFKNbFJz7Yrhw+Bb5Y3EcTvFx3RobYEJz2ZfXq2q8ovVd9OPbgJgtHalEupvTM8Ovieba/MFybjXWuMwR24aPbae99h+e8SYxBfD/L/sDtu/gZaa12L2HYDcQAAAABJRU5ErkJggg=="
+  },
+  {
+   "id": "pt",
+   "type": "feature",
+   "tag": "Programs",
+   "eyebrow": "Personal training",
+   "title": [
+    "One-on-one",
+    "coaching"
+   ],
+   "body": [
+    "A certified Fortius coach, programmed around your goal: a first pull-up, a strength meet, or getting back to training after time off.",
+    "On your schedule."
+   ],
+   "fine": "Text (619) 494-3088 and we match you with the right coach.",
+   "url": "crossfitfortius.com/programs",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABj0lEQVR42u2aQQ7EIAhFyXgAj+TVeyQP0IRpBYR2NckksPkumta68gU+fCX+aZyEdUnrDtKxPon6PdeZ15uOfn7ot4F1/62TvQ8ED2psP/YceGTy8Ki43oYCsDldgv2r4cE8r68xryAZDB7FPJZqrPhQ/QCPQv1QMgYlaAp4JPJ4RMrrgfoqnYeP4wHFgkQiBfuXqx+LzNRwud4aazuijQn2L5OHiIijOPx/h36U9YOTdhNy7iBBvirQc+8CR6yqvBPB/mXyCKXumGu6sQbOhH5k87jTkqhGY5cT7xGhH7n1rpm8I1gl5iwOxEc2jwXgfrxMxeVkSQ4Dj+T+Q73DxuqXkAYJ4qNIP/zow/1EtUrgJxbER8hNikL6cy1/wSObh2t39NuhHyX9uaDwzLWdLIMCHiX+bhMpN+eEeUPB/uWff7AlLamv/HwQ+lF0Pmil7pYOzWbgUXa/hPr5MN2hH3U8KJpY0V4Ej6r7JeqS+HVFcePBo+o86qUkOP8ovF+yqyq2+3A4Py/sP3DPvH7dF1AfUT5FQFaJAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "kickstart",
+   "type": "feature",
+   "tag": "Programs",
+   "eyebrow": "Fortius Kickstart",
+   "title": [
+    "Know someone",
+    "new to CrossFit?"
+   ],
+   "body": [
+    "Kickstart is a private start: a gym tour, two 75-minute 1-on-1 sessions with a coach, and a Fortius shirt.",
+    "$198, or three payments of $66."
+   ],
+   "fine": "Finish Kickstart and the first month of membership is 25 percent off.",
+   "url": "crossfitfortius.com/programs/fundamentals",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB8UlEQVR42u2bTW4DMQiFUXyAOZKvPkfyAUZyE8PDWOqi3UQgPS+mE8UrvgCPn8r8+3mElzNevsXOnOPz53r07f1oesXO9bzkH4eXv3P5TfCKLMPDfgz4RdwkmJbgY55n3tiU2HrbX5BgEYLBJVcUvUmwEEHPftKHeaP0SYJ18qBKl7Hy4HqDDzIP5iZ4eONvD2rR3AT3+Xijhs34MZQeNF2BakJPH5YCQ6HYSTCrDyoelA+L2/rob4qWBFNr0b4x7lC6lMy+QoKJoyjC5kQbzUXM+sLyJQkm1qJ9eDwdrk8vrSHcOUkwax5sRwocXuULavtufknTZVYy0KIaSoHR+jQmbGi6tEomtLL7BrrKjChnaLqkedAYbf1yNLXb9IxI0yXWohP9l1OBnqNfmi5vHhQfDd7SANSnFFA3NF3aKIoU2FDRD5vRH8UFCeb1QcyUEFTl6HELpvU0XXIfdEf0NlpomLInk3s2YbNAKx9UfOqISUK9T9Pl1aLbB3XfYj6h5c3pUv6+6DEfhBYVResilXmwwIwe3VDB9tNub5NggT0Z23TyUDrOPg2jaIFdteiXO5SyHiyzL4rJPDrbR24kwSoEZ+xnxw4pCRYgiOo9jipclZJgiTyIPZl5yBnuyZTb2Za4L+rrozRd8nqQ/w9b8fIPOhA+uZYCxTAAAAAASUVORK5CYII="
+  },
+  {
+   "id": "youtube",
+   "type": "youtube",
+   "seconds": 90,
+   "guard": 12,
+   "playlist": "PLLLK-RpnFmiL8qO-TMwScNPH4RHn4-xU9",
+   "shuffle": true
+  },
+  {
+   "id": "gritboard",
+   "type": "page",
+   "seconds": 45,
+   "start": "2026-12-01",
+   "src": "https://rewards.crossfitfortius.com/board/#board",
+   "probe": "https://rewards.crossfitfortius.com/board/board.json"
+  }
+ ]
+}
