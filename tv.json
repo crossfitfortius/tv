@@ -380,6 +380,22 @@
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABkklEQVR42u2aS47EIAxEreEAHImr50gcIBIT8AfSs2lpJNemWNDdaVY82VW2I+OrdQvPJZ27xJY96sW3519b9f6R7xbP/e/cw6OeZIxlX3841Ys8MnncKwI8UqoCOJ6RB47Hs5XxfM6NPLA8QjVWDiMPtH5MHtImlOMZ9SObxytSPjb6q3Qee11bNTSHHb6Y9wfwu6oaw5LWMr1zk0YeufnKZWKimFVgUwom6uSRy6MYhUhf66fbLeYrgN9t40/SUqFv5oF5f2l63ssZEEphROai30X4q6uGfvRioh5qT7+bzUMFfHVJ9Ft1+9u69hh5f3n5Sl6tkrfd8nKE95dan1tUqLdVFTcRYXwA6kHrWkX6Eg+N2Hh/+f2r019Fv0Tbi+QBiI8xdlSYv/ImFnkk96/cVVll2CNwmK+A/V03vRvUNL2MD5B+vCuRPR8kD8x8cOmHlHHMP6xwJw/Q/Nx5hJ4L/RWUx556RPuEPEA8Dv2wN+N0cR6F0489GoxJIeMD9H7J8b7ox8yQPAD1B98zx5/7BbIMYOm6C6s1AAAAAElFTkSuQmCC"
   },
   {
+   "id": "gear",
+   "type": "feature",
+   "seconds": 16,
+   "tag": "Our gym",
+   "eyebrow": "A quick ask from your coaches",
+   "title": [
+    "Take care",
+    "of the gear."
+   ],
+   "body": [
+    "Please go easy on the dumbbells, kettlebells, and machines, and use them the way they were built to be used.",
+    "See something broken, loose, or worn? Tell a coach right away so we can fix it."
+   ],
+   "fine": "One rule to know: a bar loaded with only 10s or 15s gets set down, not dropped. Not sure how something works? Ask a coach."
+  },
+  {
    "id": "gift",
    "type": "feature",
    "end": "2026-11-26",
