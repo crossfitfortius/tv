@@ -1,8 +1,11 @@
 {
- "version": "2026-11-16-v1",
- "updated": "2026-11-17",
+ "version": "2026-11-18-v2",
+ "updated": "2026-11-18",
  "site": "crossfitfortius.com",
  "seconds": 14,
+ "blocks": {
+  "slides": 120
+ },
  "schedule": {
   "note": "Every class is 60 minutes and coached. Check in before warm-up.",
   "week": {
@@ -532,7 +535,8 @@
   {
    "id": "youtube",
    "type": "youtube",
-   "seconds": 90,
+   "seconds": 150,
+   "random_start": true,
    "guard": 12,
    "playlist": "PLLLK-RpnFmiL8qO-TMwScNPH4RHn4-xU9",
    "shuffle": true
