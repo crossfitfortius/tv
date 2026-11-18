@@ -139,6 +139,17 @@ body{cursor:none;-webkit-font-smoothing:antialiased}
 .layer iframe{position:absolute;left:0;top:0;width:1920px;height:1080px;border:0}
 .shield{position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:6}
 
+/* TV setup: a first-run box for screens that crop or misreport the picture. It sits outside the scaled stage. */
+#setup{position:absolute;left:110px;top:330px;width:1000px;z-index:60;padding:24px 30px 20px;border-radius:10px;background:#f3f2ee;box-shadow:0 10px 40px rgba(0,0,0,.6);
+  font-family:"Montserrat", Arial, sans-serif;color:#14213a;transform-origin:0 0;-webkit-transform-origin:0 0;cursor:default}
+#setup h3{margin:0;font-weight:700;font-size:30px;line-height:1;letter-spacing:.12em;text-transform:uppercase;color:#125caa}
+#setup p{margin:10px 0 0;font-weight:500;font-size:23px;line-height:1.35}
+#setup .row{margin:14px 0 0;white-space:nowrap}
+#setup .btn{display:inline-block;margin-right:14px;padding:15px 24px;border-radius:8px;background:#125caa;color:#ffffff;font-weight:700;font-size:25px;line-height:1;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+#setup .btn.go{background:#e7952f;color:#14213a}
+#setup .diag{margin:14px 0 0;font-size:17px;line-height:1.3;color:#5b6b85}
+.calframe{position:absolute;left:0;top:0;width:1904px;height:1064px;border:8px solid #e7952f;z-index:40}
+
 @media (prefers-reduced-motion: reduce){ .slide,.layer,.rz{transition:none;-webkit-transition:none} .rz{opacity:1;transform:none;-webkit-transform:none} .plate.next{-webkit-animation:none;animation:none} }
 </style>
 </head>
@@ -168,6 +179,8 @@ var LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAADnCAYAAACOo+foAA
   var probeOK = {};
   var yt = { api: 0, player: null, ready: false, box: null, fails: 0, blockedUntil: 0, playing: false, started: false, advance: false, slide: null };
   var pages = {};
+  var cal = { k: 1, x: 0, y: 0, done: false };
+  var setupEl = null, setupTimer = null, calFrame = null;
 
   /* ---------- time ---------- */
   function query(name) {
@@ -237,14 +250,105 @@ var LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAADnCAYAAACOo+foAA
     } catch (e) { done(null); }
   }
 
+  /* The area the picture has to fit. Some TV browsers report a page larger than the screen and show only part of it.
+     Where the browser says which part is on screen (visualViewport), fit that part. The setup box covers the rest. */
+  function view() {
+    var vv = window.visualViewport, de = document.documentElement;
+    var w = window.innerWidth, h = window.innerHeight, x = 0, y = 0;
+    if (!(w > 0)) w = de.clientWidth;
+    if (!(h > 0)) h = de.clientHeight;
+    if (vv && vv.width > 100 && vv.height > 100 && (vv.width < w - 2 || vv.height < h - 2)) {
+      x = vv.offsetLeft || 0; y = vv.offsetTop || 0; w = vv.width; h = vv.height;
+    }
+    return { x: x, y: y, w: w > 0 ? w : W, h: h > 0 ? h : H };
+  }
   function fit() {
-    var vw = window.innerWidth, vh = window.innerHeight;
-    var s = Math.min(vw / W, vh / H);
-    var ox = (vw - W * s) / 2 + drift[0];
-    var oy = (vh - H * s) / 2 + drift[1];
-    var t = "translate(" + ox + "px," + oy + "px) scale(" + s + ")";
+    var v = view();
+    var s = Math.min(v.w / W, v.h / H) * cal.k;
+    var ox = v.x + (v.w - W * s) / 2 + cal.x + drift[0];
+    var oy = v.y + (v.h - H * s) / 2 + cal.y + drift[1];
+    var t = "translate(" + ox + "px," + oy + "px) scale(" + s + ")", ps;
     stage.style.webkitTransform = t;
     stage.style.transform = t;
+    if (setupEl) {
+      ps = Math.min(1, v.w / 1400);
+      setupEl.style.left = (v.x + 110 * ps) + "px";
+      setupEl.style.top = (v.y + 330 * ps) + "px";
+      setupEl.style.webkitTransform = "scale(" + ps + ")";
+      setupEl.style.transform = "scale(" + ps + ")";
+    }
+  }
+
+  /* ---------- TV setup: size and position saved on the TV itself ---------- */
+  function loadCal() {
+    var j;
+    try {
+      j = JSON.parse(window.localStorage.getItem("fortius_tv_fit") || "null");
+      if (j && typeof j.k === "number" && j.k > 0.2 && j.k < 2) { cal.k = j.k; cal.x = +j.x || 0; cal.y = +j.y || 0; cal.done = true; }
+    } catch (e) {}
+  }
+  function saveCal() {
+    try { window.localStorage.setItem("fortius_tv_fit", JSON.stringify({ k: cal.k, x: cal.x, y: cal.y })); } catch (e) {}
+    cal.done = true;
+  }
+  function diagText() {
+    var vv = window.visualViewport, sc = window.screen || {};
+    return "Reported " + window.innerWidth + " x " + window.innerHeight + "  |  screen " + sc.width + " x " + sc.height +
+      "  |  ratio " + (window.devicePixelRatio || "?") +
+      "  |  view " + (vv ? Math.round(vv.width) + " x " + Math.round(vv.height) + " at " + Math.round(vv.offsetLeft) + "," + Math.round(vv.offsetTop) + " zoom " + (Math.round(vv.scale * 100) / 100) : "none") +
+      "  |  size " + Math.round(cal.k * 1000) / 10 + "%  |  move " + cal.x + "," + cal.y;
+  }
+  function closeSetup() {
+    clearTimeout(setupTimer);
+    saveCal();
+    if (setupEl && setupEl.parentNode) setupEl.parentNode.removeChild(setupEl);
+    if (calFrame && calFrame.parentNode) calFrame.parentNode.removeChild(calFrame);
+    setupEl = null; calFrame = null;
+    document.body.style.cursor = "none";
+  }
+  function touchSetup() {
+    var d = setupEl ? find(setupEl, "diag")[0] : null;
+    if (d) d.innerHTML = esc(diagText());
+    clearTimeout(setupTimer);
+    setupTimer = setTimeout(closeSetup, 90000);
+  }
+  function setupAct(a) {
+    if (a === "smaller") cal.k = Math.max(0.3, Math.round((cal.k - 0.025) * 1000) / 1000);
+    if (a === "bigger") cal.k = Math.min(1.5, Math.round((cal.k + 0.025) * 1000) / 1000);
+    if (a === "left") cal.x -= 40;
+    if (a === "right") cal.x += 40;
+    if (a === "up") cal.y -= 40;
+    if (a === "down") cal.y += 40;
+    if (a === "reset") { cal.k = 1; cal.x = 0; cal.y = 0; }
+    if (a === "done") { closeSetup(); return; }
+    fit();
+    touchSetup();
+  }
+  function openSetup() {
+    if (setupEl) return;
+    calFrame = document.createElement("div");
+    calFrame.className = "calframe";
+    stage.appendChild(calFrame);
+    setupEl = document.createElement("div");
+    setupEl.id = "setup";
+    setupEl.innerHTML = "<h3>TV setup</h3>" +
+      "<p>Is there an orange border on all four sides of the screen? If yes, choose Done. If the picture is cut off, choose Smaller until the whole border shows, then move it into place. This box closes by itself after 90 seconds.</p>" +
+      '<div class="row"><span class="btn" data-a="smaller">Smaller (1)</span><span class="btn" data-a="bigger">Bigger (3)</span><span class="btn go" data-a="done">Done (5)</span><span class="btn" data-a="reset">Reset (0)</span></div>' +
+      '<div class="row"><span class="btn" data-a="left">Left</span><span class="btn" data-a="up">Up</span><span class="btn" data-a="down">Down</span><span class="btn" data-a="right">Right</span></div>' +
+      '<p class="diag"></p>';
+    document.body.appendChild(setupEl);
+    setupEl.onclick = function (e) {
+      var t, a;
+      e = e || window.event;
+      t = e.target || e.srcElement;
+      a = t && t.getAttribute ? t.getAttribute("data-a") : null;
+      if (e.stopPropagation) e.stopPropagation();
+      e.cancelBubble = true;
+      if (a) setupAct(a);
+    };
+    document.body.style.cursor = "default";
+    fit();
+    touchSetup();
   }
 
   /* ---------- which slides are on ---------- */
@@ -654,6 +758,7 @@ var LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAADnCAYAAACOo+foAA
       setInterval(refresh, 10 * 60 * 1000);
       setInterval(probe, 10 * 60 * 1000);
     }
+    if (!frozen() && !at && (!cal.done || /[?&]setup\b/.test(location.search))) openSetup();
     if (!reduce) {
       var offsets = [[0, 0], [4, 3], [-3, 4], [3, -4], [-4, -3]], k = 0;
       setInterval(function () { k = (k + 1) % offsets.length; drift = offsets[k]; fit(); }, 180000);
@@ -661,16 +766,26 @@ var LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAADnCAYAAACOo+foAA
   }
 
   window.addEventListener("resize", fit);
+  if (window.visualViewport && window.visualViewport.addEventListener) {
+    window.visualViewport.addEventListener("resize", fit);
+    window.visualViewport.addEventListener("scroll", fit);
+  }
   window.addEventListener("hashchange", function () {
     var id = location.hash.replace("#", "");
     if (!(id && showById(id))) step(1);
   });
-  document.addEventListener("click", function () { step(1); });
+  document.addEventListener("click", function () { if (!setupEl) step(1); });
   document.addEventListener("keydown", function (e) {
+    var c = e.keyCode, map = { 49: "smaller", 97: "smaller", 51: "bigger", 99: "bigger", 53: "done", 101: "done", 13: "done", 48: "reset", 96: "reset", 37: "left", 38: "up", 39: "right", 40: "down" };
+    if (setupEl) {
+      if (map[c]) { setupAct(map[c]); if (e.preventDefault) e.preventDefault(); }
+      return;
+    }
     if (e.key === "ArrowRight" || e.key === " " || e.keyCode === 39 || e.keyCode === 32) step(1);
     if (e.key === "ArrowLeft" || e.keyCode === 37) step(-1);
   });
 
+  loadCal();
   fit();
   if (document.fonts && document.fonts.load) {
     Promise.all([document.fonts.load("600 40px Montserrat"), document.fonts.load("500 40px Montserrat"), document.fonts.load("700 40px Cinzel")]).then(begin, begin);
