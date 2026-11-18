@@ -618,16 +618,18 @@ var LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAADnCAYAAACOo+foAA
   }
   /* start a long video at a random spot, once per video, so the loop does not replay the same opening */
   function ytSeek(s) {
-    var id, dur = 0, left, at;
+    var id, dur = 0, left, at, span;
     if (s.random_start === false) return false;
     id = ytId();
     if (!id || id === yt.seeked) return false;
     yt.seeked = id;
     try { dur = yt.player.getDuration(); } catch (e) { dur = 0; }
     left = yt.endsAt ? (yt.endsAt - new Date().getTime()) / 1000 : (s.seconds || 90);
-    if (!(dur > left + 30)) return false;
-    at = Math.floor(Math.random() * (dur - left - 15));
-    if (at < 5) return false;
+    /* a long video starts where it can fill the rest of the block. A shorter one starts anywhere that leaves it a minute to play. */
+    span = dur > left + 30 ? dur - left - 15 : dur - 60;
+    if (!(span > 5)) return false;
+    at = Math.floor(Math.random() * span);
+    if (at < 3) return false;
     try { yt.player.seekTo(at, true); } catch (e2) { return false; }
     document.documentElement.setAttribute("data-video", id + " " + at + "/" + Math.round(dur));
     return true;
