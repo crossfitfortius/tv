@@ -1,6 +1,6 @@
 {
  "version": "2026-11-16-v1",
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "site": "crossfitfortius.com",
  "seconds": 14,
  "schedule": {
@@ -511,23 +511,6 @@
    "fine": "Ask a coach or text (619) 494-3088.",
    "url": "crossfitfortius.com/programs/nutrition",
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUUITr///9eqcEhAAAB80lEQVR42u1bS47FIAyLpgfgSFy9R+oBKjEt+fI0i5nNyEhmUUHLCr8Q28mT8ftxCzcjbj7FxpyNsz2vz3bbyz58Ju3+kj8Mbv6fzQaZYpkzOcZ8vLjZL+IkgrAI3mJAXQ9k/RJbzg/dw5QIboCgRt4TiIrbiAcR3CkGRWEsdycR3CYPDr9A9cO7LMyICMIiuETjTw9yUWwEc0zy2Z+JC4l31or04NHh5sHJQA2yvEWPuF5VV/DoYBFMIaG4mRQ0VhoKg0cHmwfz8aB1FIE/l5OfEkHgPGhsU9HqMZsxKC0/EEFQBK8UhZYHU2FkDJLJACN4BA0NJ0bfidgHxiD6LequWuTBy3Crjg0RRI5BUw7DwXOLRn2abu4Mjw6Xi2ZNqVQZAzzfwqMDRTAZqHzSGa8uHfRFsbloHYmge27q05DJQOtBlQ9R4dW7s5lXGtHIo8O9RWVpjElALTderA/C1wdTuLsds7BS5sEd9GCIhmCg7na7KOTRYXsyGX6Tmmr2iwYaIohfH0wbLU225KfUg1vU6C0tekViIaREcJM+mWLHpGFKNbFJz7Yrhw+Bb5Y3EcTvFx3RobYEJz2ZfXq2q8ovVd9OPbgJgtHalEupvTM8Ovieba/MFybjXWuMwR24aPbae99h+e8SYxBfD/L/sDtu/gZaa12L2HYDcQAAAABJRU5ErkJggg=="
-  },
-  {
-   "id": "pt",
-   "type": "feature",
-   "tag": "Programs",
-   "eyebrow": "Personal training",
-   "title": [
-    "One-on-one",
-    "coaching"
-   ],
-   "body": [
-    "A certified Fortius coach, programmed around your goal: a first pull-up, a strength meet, or getting back to training after time off.",
-    "On your schedule."
-   ],
-   "fine": "Text (619) 494-3088 and we match you with the right coach.",
-   "url": "crossfitfortius.com/programs",
-   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABj0lEQVR42u2aQQ7EIAhFyXgAj+TVeyQP0IRpBYR2NckksPkumta68gU+fCX+aZyEdUnrDtKxPon6PdeZ15uOfn7ot4F1/62TvQ8ED2psP/YceGTy8Ki43oYCsDldgv2r4cE8r68xryAZDB7FPJZqrPhQ/QCPQv1QMgYlaAp4JPJ4RMrrgfoqnYeP4wHFgkQiBfuXqx+LzNRwud4aazuijQn2L5OHiIijOPx/h36U9YOTdhNy7iBBvirQc+8CR6yqvBPB/mXyCKXumGu6sQbOhH5k87jTkqhGY5cT7xGhH7n1rpm8I1gl5iwOxEc2jwXgfrxMxeVkSQ4Dj+T+Q73DxuqXkAYJ4qNIP/zow/1EtUrgJxbER8hNikL6cy1/wSObh2t39NuhHyX9uaDwzLWdLIMCHiX+bhMpN+eEeUPB/uWff7AlLamv/HwQ+lF0Pmil7pYOzWbgUXa/hPr5MN2hH3U8KJpY0V4Ej6r7JeqS+HVFcePBo+o86qUkOP8ovF+yqyq2+3A4Py/sP3DPvH7dF1AfUT5FQFaJAAAAAElFTkSuQmCC"
   },
   {
    "id": "kickstart",
