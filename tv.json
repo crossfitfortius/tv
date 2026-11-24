@@ -1,6 +1,6 @@
 {
- "version": "2026-11-23-v1",
- "updated": "2026-11-23",
+ "version": "2026-11-24-v1",
+ "updated": "2026-11-24",
  "site": "crossfitfortius.com",
  "seconds": 14,
  "blocks": {
@@ -434,9 +434,9 @@
   {
    "id": "santa26",
    "type": "feature",
-   "end": "2026-11-25",
+   "end": "2026-11-27",
    "tag": "Secret Santa",
-   "eyebrow": "Sign up by Wednesday, November 25",
+   "eyebrow": "Sign up by Friday, November 27",
    "title": [
     "Fortius",
     "Secret Santa"
@@ -445,7 +445,7 @@
     "Sign up, get matched with another member, and give one gift, up to $25.",
     "Drop it at the front desk by Thursday, December 3. Pick yours up from under the tree at the Holiday Party."
    ],
-   "fine": "Matches go out by email on Friday, November 27.",
+   "fine": "Matches go out by email on Saturday, November 28.",
    "url": "https://tally.so/r/RWo5yl",
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABRUlEQVR42u2a0Q3DIAxErTJARmL1jMQAkVwH2xAqVZXKfZ4/UKLw9Xo6zqaiv+oSbvl/yylRqq2onoeqVPsQdVwv+Vnc8qU6zuDsYG0xpvHLnKS7SfeSwNnytaaoSRdLd7UM0oXR9adwW9IF+25od0iZvgugu6h4LswMCLqPskQmtU09u6iJbtN3fbkrE5nO5Et02757y1Y6zhZuQd+FOEMbIaErVuJoG2GC6LZ8t7cP0aFZlYcT0xkQebfq7NW6UdiX6m5BunvOUPwsM1Moi+/6UId0d0+1bB96h1aSs9J3IafaRJzaLUxkyEQ2ku8t26jCbgLXq4UfjG5CeKoB5wyappAzMtKFzsiGKaR26Qy4+e6nnkkXeTehsxNWHZ0c0YHuJpb7Yh870HeRvlvXbMa8C7ubkMd0YU52iA5zN8F/0YC3vAH2WnQWyTLnqwAAAABJRU5ErkJggg=="
   },
