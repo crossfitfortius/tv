@@ -1,6 +1,6 @@
 {
- "version": "2026-11-18-v2",
- "updated": "2026-11-19",
+ "version": "2026-11-23-v1",
+ "updated": "2026-11-23",
  "site": "crossfitfortius.com",
  "seconds": 14,
  "blocks": {
@@ -223,6 +223,20 @@
      }
     ],
     "note": "Three classes only. No open gym."
+   },
+   "2026-12-05": {
+    "name": "Holiday Party",
+    "groups": [
+     {
+      "label": "Holiday Party classes · 90 minutes each",
+      "times": [
+       "6:45 AM",
+       "8:30 AM",
+       "10:15 AM"
+      ]
+     }
+    ],
+    "note": "These three classes replace the regular Saturday classes. Finale at 11:45 AM. Friends and family train free."
    }
   }
  },
@@ -251,7 +265,7 @@
       ],
       [
        "Afternoon",
-       "No 3:00, 4:15, or 5:30 PM classes"
+       "No 3:00, 4:15, or 5:30 PM classes"
       ],
       [
        "Open gym and Competitor",
@@ -270,7 +284,7 @@
       ],
       [
        "Members",
-       "Clydesdale Marathon, 7:30 AM sharp"
+       "Clydesdale Marathon, 7:30 AM sharp"
       ]
      ]
     },
@@ -346,7 +360,7 @@
      "top": "Sat",
      "main": "Dec 5",
      "title": "Fortius Holiday Party",
-     "detail": "Members and families. Time and place coming soon."
+     "detail": "Classes at 6:45, 8:30, and 10:15 AM. Friends and family train free."
     },
     {
      "end": "2027-03-08",
@@ -380,6 +394,62 @@
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABkklEQVR42u2aS47EIAxEreEAHImr50gcIBIT8AfSs2lpJNemWNDdaVY82VW2I+OrdQvPJZ27xJY96sW3519b9f6R7xbP/e/cw6OeZIxlX3841Ys8MnncKwI8UqoCOJ6RB47Hs5XxfM6NPLA8QjVWDiMPtH5MHtImlOMZ9SObxytSPjb6q3Qee11bNTSHHb6Y9wfwu6oaw5LWMr1zk0YeufnKZWKimFVgUwom6uSRy6MYhUhf66fbLeYrgN9t40/SUqFv5oF5f2l63ssZEEphROai30X4q6uGfvRioh5qT7+bzUMFfHVJ9Ft1+9u69hh5f3n5Sl6tkrfd8nKE95dan1tUqLdVFTcRYXwA6kHrWkX6Eg+N2Hh/+f2r019Fv0Tbi+QBiI8xdlSYv/ImFnkk96/cVVll2CNwmK+A/V03vRvUNL2MD5B+vCuRPR8kD8x8cOmHlHHMP6xwJw/Q/Nx5hJ4L/RWUx556RPuEPEA8Dv2wN+N0cR6F0489GoxJIeMD9H7J8b7ox8yQPAD1B98zx5/7BbIMYOm6C6s1AAAAAElFTkSuQmCC"
   },
   {
+   "id": "party26",
+   "type": "feature",
+   "seconds": 16,
+   "end": "2026-12-05T12:00",
+   "tag": "Members and families",
+   "eyebrow": "Saturday, December 5 · Free",
+   "title": [
+    "Holiday",
+    "Party"
+   ],
+   "body": [
+    "The party is your Saturday class. Three 90-minute classes: 6:45, 8:30, and 10:15 AM.",
+    "Each one is the 12 Days of X-Mas, solo or with a partner. Year End Awards, Secret Santa, breakfast, and an ugly sweater contest.",
+    "Friends and family train free."
+   ],
+   "fine": "Stay for 11:45, when we draw a free month. You have to be there to win.",
+   "url": "crossfitfortius.com/events",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABkklEQVR42u2aS47EIAxEreEAHImr50gcIBIT8AfSs2lpJNemWNDdaVY82VW2I+OrdQvPJZ27xJY96sW3519b9f6R7xbP/e/cw6OeZIxlX3841Ys8MnncKwI8UqoCOJ6RB47Hs5XxfM6NPLA8QjVWDiMPtH5MHtImlOMZ9SObxytSPjb6q3Qee11bNTSHHb6Y9wfwu6oaw5LWMr1zk0YeufnKZWKimFVgUwom6uSRy6MYhUhf66fbLeYrgN9t40/SUqFv5oF5f2l63ssZEEphROai30X4q6uGfvRioh5qT7+bzUMFfHVJ9Ft1+9u69hh5f3n5Sl6tkrfd8nKE95dan1tUqLdVFTcRYXwA6kHrWkX6Eg+N2Hh/+f2r019Fv0Tbi+QBiI8xdlSYv/ImFnkk96/cVVll2CNwmK+A/V03vRvUNL2MD5B+vCuRPR8kD8x8cOmHlHHMP6xwJw/Q/Nx5hJ4L/RWUx556RPuEPEA8Dv2wN+N0cR6F0489GoxJIeMD9H7J8b7ox8yQPAD1B98zx5/7BbIMYOm6C6s1AAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "awards26",
+   "type": "feature",
+   "end": "2026-11-24",
+   "tag": "Year End Awards",
+   "eyebrow": "Nominations close Tuesday, November 24",
+   "title": [
+    "Who made",
+    "Fortius better?"
+   ],
+   "body": [
+    "Nominate them for a 2026 Year End Award. It is anonymous and takes two minutes.",
+    "Leadership, Performance, Rising, Comp, Most Improved, Master, and Coach of the Year."
+   ],
+   "fine": "Skip any award you do not have a pick for. Finalists go up December 2. Awards are handed out at the Holiday Party on Saturday, December 5.",
+   "url": "https://tally.so/r/zEMD51",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABP0lEQVR42u2aXQrDIBCEpTmAR8rVPZIHELbZP00CJdDM4/gQWrQvX4fZ2TVFntYoPPL/kVZixS/65hux6viUx8UjP5a0euN80G01/5lGui/pDpNo0q0SdFvsEh2MbiImXTRdtVx3hmkUpAvzXS9oPYjTdyF0LypeD2YGBN21VMXmEV7aMrQRHSaRKd1dnUHyUXbSfV3VjO9BUgV8VDX75Nuk+9IZ+mrTFKcFhxUh6LuIRKa67ZssezDOzAyQqtbL7CbMGZjIkL57iroWHMKG6bsIureou2fXRt9FJLJ2810xxOyEQdpNy11fIzjQGWC92piIp55JFzRnsICbOWxaBumCZmRLwPU0diA62Hz3eqVG3wXSlTkjS0OmdoHajYlDNsZMZNC7ialYbyRY1aB3E9FIePwVTnGQeZdv0aCPfAEPdoGKoGC3xQAAAABJRU5ErkJggg=="
+  },
+  {
+   "id": "santa26",
+   "type": "feature",
+   "end": "2026-11-25",
+   "tag": "Secret Santa",
+   "eyebrow": "Sign up by Wednesday, November 25",
+   "title": [
+    "Fortius",
+    "Secret Santa"
+   ],
+   "body": [
+    "Sign up, get matched with another member, and give one gift, up to $25.",
+    "Drop it at the front desk by Thursday, December 3. Pick yours up from under the tree at the Holiday Party."
+   ],
+   "fine": "Matches go out by email on Friday, November 27.",
+   "url": "https://tally.so/r/RWo5yl",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABRUlEQVR42u2a0Q3DIAxErTJARmL1jMQAkVwH2xAqVZXKfZ4/UKLw9Xo6zqaiv+oSbvl/yylRqq2onoeqVPsQdVwv+Vnc8qU6zuDsYG0xpvHLnKS7SfeSwNnytaaoSRdLd7UM0oXR9adwW9IF+25od0iZvgugu6h4LswMCLqPskQmtU09u6iJbtN3fbkrE5nO5Et02757y1Y6zhZuQd+FOEMbIaErVuJoG2GC6LZ8t7cP0aFZlYcT0xkQebfq7NW6UdiX6m5BunvOUPwsM1Moi+/6UId0d0+1bB96h1aSs9J3IafaRJzaLUxkyEQ2ku8t26jCbgLXq4UfjG5CeKoB5wyappAzMtKFzsiGKaR26Qy4+e6nnkkXeTehsxNWHZ0c0YHuJpb7Yh870HeRvlvXbMa8C7ubkMd0YU52iA5zN8F/0YC3vAH2WnQWyTLnqwAAAABJRU5ErkJggg=="
+  },
+  {
    "id": "gear",
    "type": "feature",
    "seconds": 16,
@@ -396,6 +466,43 @@
    "fine": "One rule to know: a bar loaded with only 10s or 15s gets set down, not dropped. Not sure how something works? Ask a coach."
   },
   {
+   "id": "survey26",
+   "type": "feature",
+   "end": "2026-11-29",
+   "tag": "Member survey",
+   "eyebrow": "Open through Sunday, November 29",
+   "title": [
+    "Bring back",
+    "barbell class?"
+   ],
+   "body": [
+    "One hour on the Olympic lifts with a coach, with a new focus every few weeks. Included in your membership.",
+    "Pick the time you would make: Monday, Tuesday, or Wednesday at 6:45 PM, Saturday at 11:45 AM, or Sunday at 7:00 AM."
+   ],
+   "fine": "It takes two minutes. Your vote picks the time.",
+   "url": "https://tally.so/r/jeo2zR",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABO0lEQVR42u2aQQ7DIAwEUfMAP4mv86Q+AMkFDBgOUaSyua0PUaJwmlrr9aZBnyoHHvn/SAq9VL+XlsfLXvSS/AmPxSM3pUkmZylMY0Ms45dJpHtIN7cWNc4hdqbW1KQLpDuFgnThdLsMX4sgky5Md+tUc+LUXQjdrYv9Qs+AoOu1mDFZTBvRYRyZmd71UiwE6Z4pQ1Xbgdiq2rJxR7rHvZtcI9pokznkqLvHU83B9pWiiULf2ojuZKrVFo1DFMbCRkeG7N3F6qrJsIkvdRe2TWxRTnlH3YVswmZ106YMTXypDIicIWpe3YNHOdwmYLuad3HjLNzVgDmDL8FJZitTGYBTzXP04R5IF5Tv1vVhejPq7gvpuY6Iod+xd2G9u4c6dGQv6K7ORYJTDfltwtLzGZkxxUH6Xf6LBn3kBxP7fm9dfJLCAAAAAElFTkSuQmCC"
+  },
+  {
+   "id": "tyr26",
+   "type": "feature",
+   "seconds": 16,
+   "tag": "Fortius gear",
+   "eyebrow": "The Fortius TYR shop is open",
+   "title": [
+    "The vintage barbell",
+    "hoodie is back."
+   ],
+   "body": [
+    "The 2019 member favorite, plus hoodies, zips, a softshell jacket, and a beanie. Made to order and shipped by TYR.",
+    "Register once with your name, email, gym name, and address. Log in with the 6-digit code TYR emails you, then tap Shop now.",
+    "First order: code WELCOME20 takes $20 off."
+   ],
+   "fine": "Scan for the sign-up link and every step.",
+   "url": "crossfitfortius.com/apparel",
+   "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABmElEQVR42u2aQa7DMAhEUXsAHylX95FygEh8FzM48arSl6CL8SJKWq/8xDAGRL9al3Bf0r4uvubbcb7H7/YY//pq10u+W9z3v32DQgsyn7fewOgIqp08MnlcFgGTh8UHPp0MedTwcIEaUtUloJBHXXx8Pj2nDB6Hkkdp/rD4OMDj5grII5PHI1K2B/1VOo9tbaEBX8zzy9SrCIOpV9Nk2U0E2YXnl5vPBQD0tEuh3T9UgxHPL1evTkSKUTjsM0wW9So1n4c2TQBIIjOTuGjx/JJ5uEChVKLqmYR+N12vcOGwTGJkpIWG0e9W3Af7o7TrqTyKioyPzPg4l0CprsqiG+FGHiU8opTYrrC6ujohPL/MfA4vJbebyOTRef8oqF8hbUOlZrhEfFCvsv2udz0ETRD4q7BgPL9kHnJvgvTnHupVSX23y8rsywgzn5f1Px56hXAhj7L5kmhK6bmnd55fRf/8jdLu6okI/VXdvI+FBkZLonJCHkXzPnFT3/pRrCfWzZcImiCLDOOjbr5keWD6q5+YL+Gceem+P1u6TxNnsaGPAAAAAElFTkSuQmCC"
+  },
+  {
    "id": "gift",
    "type": "feature",
    "end": "2026-11-26",
@@ -407,7 +514,7 @@
    ],
    "body": [
     "Any amount from $25 to $500. It never expires.",
-    "They pick the classes, a pass, or a membership. We do the coaching."
+    "They pick the classes, a pass, or a membership. We do the coaching."
    ],
    "url": "crossfitfortius.com/gift-cards",
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAE2AQMAAADRcizqAAAABlBMVEUUITr///9eqcEhAAABpElEQVR42u1aSQ7DMAhE9QPypHzdT8oDItGYzbSnSpXgMj5EceITIxhmMPFP6yacKzo3yRbzZQ+ig5nO56+t437Rbwvn/jv34HEEgtfQN8Hj+eGoTuBRiYcAYLGXrPAksewBHk14pPwQeIBHMx7x9cjsAjx6+GO9CTJG5eCPFjw+MuXrgf6qHI+0Hv5wPh/sRUuzB/GrrFd0XpIpC4VdwxQe4FGcH6urMlAG761SuW2BR2l/pVwRgtx7LkkSkh+IXyV/mCBf+9NJZDdZwKO2XhGlflfwIBrsdpYwO/Co5vNFEzTCydqmIvi8QQ9OVyJmmhiLbycL8avNDyERXSOYxOsV+KO6302GrksPlSOneb6IXy0evAWH98Da6kJ/tPiJX9ZuyHUtZMCjUn/sUZQrkeivXJ0Aj+L+KuZRk/JoMCZTiF+9vzuTPAzNbtMqxK9+/mEi/VbqcGML/VXbfJDMKvHU4F2+EL+e+blPBTeTwC/pwkOrFJlfkkgd9artvo+5JJzbLejBrvuJ3m6ZvRiDQ+RHz/0SdtfqyvwBPJrul+Ceefu5N1zUdNglkE6lAAAAAElFTkSuQmCC"
@@ -508,7 +615,7 @@
    ],
    "body": [
     "The step past the daily class. Accessory work, extra conditioning, and sessions of 90 minutes to 2 hours.",
-    "Open to members who can do most class workouts at Level 3 or higher."
+    "Open to members who can do most class workouts at Level 3 or higher."
    ],
    "fine": "$238 a month: a $149 Fortius membership plus the $89 Competitor add-on, paid directly to Coach Daimino. Ask a coach or text (619) 494-3088.",
    "url": "crossfitfortius.com/programs",
@@ -525,7 +632,7 @@
    ],
    "body": [
     "Clear, practical steps that fit a busy life. No diet trends.",
-    "Level 1: 8 weeks, for CrossFitters new to nutrition. Level 2: 12 weeks, with macro and micronutrient tracking. Level 3: fully custom."
+    "Level 1: 8 weeks, for CrossFitters new to nutrition. Level 2: 12 weeks, with macro and micronutrient tracking. Level 3: fully custom."
    ],
    "fine": "Ask a coach or text (619) 494-3088.",
    "url": "crossfitfortius.com/programs/nutrition",
