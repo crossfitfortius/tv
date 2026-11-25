@@ -1,6 +1,6 @@
 {
- "version": "2026-11-24-v1",
- "updated": "2026-11-24",
+ "version": "2026-11-25-v1",
+ "updated": "2026-11-25",
  "site": "crossfitfortius.com",
  "seconds": 14,
  "blocks": {
@@ -416,9 +416,9 @@
   {
    "id": "awards26",
    "type": "feature",
-   "end": "2026-11-24",
+   "end": "2026-11-29",
    "tag": "Year End Awards",
-   "eyebrow": "Nominations close Tuesday, November 24",
+   "eyebrow": "Nominations close Sunday, November 29",
    "title": [
     "Who made",
     "Fortius better?"
@@ -427,25 +427,25 @@
     "Nominate them for a 2026 Year End Award. It is anonymous and takes two minutes.",
     "Leadership, Performance, Rising, Comp, Most Improved, Master, and Coach of the Year."
    ],
-   "fine": "Skip any award you do not have a pick for. Finalists go up December 2. Awards are handed out at the Holiday Party on Saturday, December 5.",
+   "fine": "Skip any award you do not have a pick for. Members and coaches vote December 1 to 3. Awards are handed out at the Holiday Party on Saturday, December 5.",
    "url": "https://tally.so/r/zEMD51",
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABP0lEQVR42u2aXQrDIBCEpTmAR8rVPZIHELbZP00CJdDM4/gQWrQvX4fZ2TVFntYoPPL/kVZixS/65hux6viUx8UjP5a0euN80G01/5lGui/pDpNo0q0SdFvsEh2MbiImXTRdtVx3hmkUpAvzXS9oPYjTdyF0LypeD2YGBN21VMXmEV7aMrQRHSaRKd1dnUHyUXbSfV3VjO9BUgV8VDX75Nuk+9IZ+mrTFKcFhxUh6LuIRKa67ZssezDOzAyQqtbL7CbMGZjIkL57iroWHMKG6bsIureou2fXRt9FJLJ2810xxOyEQdpNy11fIzjQGWC92piIp55JFzRnsICbOWxaBumCZmRLwPU0diA62Hz3eqVG3wXSlTkjS0OmdoHajYlDNsZMZNC7ialYbyRY1aB3E9FIePwVTnGQeZdv0aCPfAEPdoGKoGC3xQAAAABJRU5ErkJggg=="
   },
   {
    "id": "santa26",
    "type": "feature",
-   "end": "2026-11-27",
+   "end": "2026-12-02",
    "tag": "Secret Santa",
-   "eyebrow": "Sign up by Friday, November 27",
+   "eyebrow": "Sign up by Wednesday, December 2",
    "title": [
     "Fortius",
     "Secret Santa"
    ],
    "body": [
     "Sign up, get matched with another member, and give one gift, up to $25.",
-    "Drop it at the front desk by Thursday, December 3. Pick yours up from under the tree at the Holiday Party."
+    "Bring your gift to your Saturday class on December 5. Pick yours up from under the tree at the Holiday Party."
    ],
-   "fine": "Matches go out by email on Saturday, November 28.",
+   "fine": "Matches go out by email Thursday, December 3.",
    "url": "https://tally.so/r/RWo5yl",
    "qr": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOAQMAAABCf2vmAAAABlBMVEUUITr///9eqcEhAAABRUlEQVR42u2a0Q3DIAxErTJARmL1jMQAkVwH2xAqVZXKfZ4/UKLw9Xo6zqaiv+oSbvl/yylRqq2onoeqVPsQdVwv+Vnc8qU6zuDsYG0xpvHLnKS7SfeSwNnytaaoSRdLd7UM0oXR9adwW9IF+25od0iZvgugu6h4LswMCLqPskQmtU09u6iJbtN3fbkrE5nO5Et02757y1Y6zhZuQd+FOEMbIaErVuJoG2GC6LZ8t7cP0aFZlYcT0xkQebfq7NW6UdiX6m5BunvOUPwsM1Moi+/6UId0d0+1bB96h1aSs9J3IafaRJzaLUxkyEQ2ku8t26jCbgLXq4UfjG5CeKoB5wyappAzMtKFzsiGKaR26Qy4+e6nnkkXeTehsxNWHZ0c0YHuJpb7Yh870HeRvlvXbMa8C7ubkMd0YU52iA5zN8F/0YC3vAH2WnQWyTLnqwAAAABJRU5ErkJggg=="
   },
